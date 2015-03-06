@@ -1,0 +1,13 @@
+[0m[[33mwarn[0m] [0mMultiple resolvers having different access mechanism configured with same name 'Sonatype Snapshots'. To avoid conflict, Remove duplicate project resolvers (`resolvers`) or rename publishing resolver (`publishTo`).[0m
+[0m[[0mdebug[0m] [0mOther repositories:[0m
+[0m[[0mdebug[0m] [0m	FileRepository(publish-m2-local,FileConfiguration(true,None),Patterns(ivyPatterns=List(), artifactPatterns=List(/home/ecomotto/.m2/repository/[organisation]/[module](_[scalaVersion])(_[sbtVersion])/[revision]/[artifact]-[revision](-[classifier]).[ext]), isMavenCompatible=true, descriptorOptional=false, skipConsistencyCheck=false))[0m
+[0m[[0mdebug[0m] [0mDefault repositories:[0m
+[0m[[0mdebug[0m] [0m	Raw(ProjectResolver(inter-project, mapped: ))[0m
+[0m[[0mdebug[0m] [0m	FileRepository(local,FileConfiguration(true,None),Patterns(ivyPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), artifactPatterns=List(${ivy.home}/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]), isMavenCompatible=false, descriptorOptional=false, skipConsistencyCheck=false))[0m
+[0m[[0mdebug[0m] [0m	public: http://repo1.maven.org/maven2/[0m
+[0m[[0mdebug[0m] [0m	typesafe repo:  http://repo.typesafe.com/typesafe/releases/[0m
+[0m[[0mdebug[0m] [0m	Akka Repository: http://repo.akka.io/releases/[0m
+[0m[[0mdebug[0m] [0m	opennlp sourceforge repo: http://opennlp.sourceforge.net/maven2[0m
+[0m[[0mdebug[0m] [0m	Sonatype Snapshots: https://oss.sonatype.org/content/repositories/releases/[0m
+[0m[[0mdebug[0m] [0m	Sonatype Snapshots: https://oss.sonatype.org/content/repositories/snapshots/[0m
+[0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m
